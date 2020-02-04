@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zahed/projects/OJ/DevSkill-Batch6-STL/y/y.cpp
+iostream
+-
+map
+-
+vector
+-
+set
+-
+algorithm
+-
+string
+-
+queue
+-
+
