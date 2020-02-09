@@ -77,7 +77,7 @@ typedef unsigned long long int uint64;
 /********** Main()  function **********/
 int main() {
     filein;
-    //fileout
+//    fileout;
 
     int t, n;
     vector<int> val;
@@ -92,12 +92,13 @@ int main() {
             val.push_back(price);
         }
 
-        sort(val.begin(), val.end());
+        sort(val.begin(), val.end(), greater <int >());
 
-        for (int i = 0; i < n; ++i) {
-
-
+        for (int i = 2; i < n; i += 3) {
+            total_discount += val[i];
         }
+
+        printf("%d\n", total_discount);
     }
 
     return 0;
