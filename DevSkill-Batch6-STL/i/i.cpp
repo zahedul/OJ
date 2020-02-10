@@ -7,7 +7,7 @@
 #include <string>
 #include <queue>
 
-#define filein freopen ("input.txt", "r", stdin)
+#define filein freopen ("../i/input.txt", "r", stdin)
 #define fileout freopen ("output.txt", "w", stdout)
 #define dbg(x) cerr << #x << ": " << x << endl
 #define ___ ios::sync_with_stdio (false); cin.tie (0);
@@ -28,7 +28,7 @@ void swapRow(int dimention, int a, int b);
 void swapCol(int dimention, int a, int b);
 
 int main() {
-    // filein;
+//     filein;
     // fileout;
     int t;
     scanf("%d", &t);

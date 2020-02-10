@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zahed/projects/OJ/HackerEarth/IThinkItsEasy/code.cpp
+iostream
+-
+vector
+-
+sstream
+-
+algorithm
+-
+
